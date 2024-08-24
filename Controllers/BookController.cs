@@ -8,7 +8,7 @@ namespace crud_dotnet_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // [Authorize]  //uncomment it to protect thr routes actions
+    //[Authorize]  //uncomment it to protect the routes actions
     public class BookController : ControllerBase
     {
         private readonly BookRepository _bookRepository;
