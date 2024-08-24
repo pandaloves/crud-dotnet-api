@@ -32,7 +32,7 @@ namespace crud_dotnet_api.Data
             var book = await _appDbContext.Books.FindAsync(id);
             if (book == null)
             {
-                throw new Exception("Book not found");
+                throw new Exception("Book not found!");
             }
             book.Title = model.Title;
             book.Author = model.Author;
@@ -46,7 +46,7 @@ namespace crud_dotnet_api.Data
             var book = await _appDbContext.Books.FindAsync(id);
             if (book == null)
             {
-                throw new Exception("Book not found");
+                throw new Exception("Book not found!");
             }
             _appDbContext.Books.Remove(book);
             await _appDbContext.SaveChangesAsync();

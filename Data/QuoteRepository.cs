@@ -32,7 +32,7 @@ namespace crud_dotnet_api.Data
             var quote = await _appDbContext.Quotes.FindAsync(id);
             if (quote == null)
             {
-                throw new Exception("Quote not found");
+                throw new Exception("Quote not found!");
             }
             quote.Author = model.Author;
             quote.Content = model.Content;
@@ -45,7 +45,7 @@ namespace crud_dotnet_api.Data
             var quote = await _appDbContext.Quotes.FindAsync(id);
             if (quote == null)
             {
-                throw new Exception("Quote not found");
+                throw new Exception("Quote not found!");
             }
             _appDbContext.Quotes.Remove(quote);
             await _appDbContext.SaveChangesAsync();

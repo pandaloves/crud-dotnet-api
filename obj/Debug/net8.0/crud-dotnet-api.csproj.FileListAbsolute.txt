@@ -1001,3 +1001,5 @@ C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\refint\crud-dotnet-api
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.pdb
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.genruntimeconfig.cache
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\ref\crud-dotnet-api.dll
+C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.sourcelink.json
+C:\Users\meiyi\Downloads\crud-dotnet-api\bin\Debug\net8.0\BCrypt.Net-Next.dll

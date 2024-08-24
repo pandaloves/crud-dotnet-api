@@ -8,7 +8,7 @@ namespace crud_dotnet_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-   // [Authorize]  //uncomment it to protect thr routes actions
+    //[Authorize]  //uncomment it to protect thr routes actions
     public class UserController : ControllerBase
     {
         private readonly UserRepository _userRepository;
@@ -18,18 +18,11 @@ namespace crud_dotnet_api.Controllers
             _userRepository = userRepository;
         }
 
-        [HttpPost]
-        public async Task<ActionResult> AddUser([FromBody] User model)
-        {
-            await _userRepository.AddUserAsync(model);
-            return Ok();
-        }
-
         [HttpGet]
         
         public async Task<ActionResult> GetUserList()
         {
-            var userList =await  _userRepository.GetAllUserAsync();
+            var userList =await  _userRepository.GetAllUsersAsync();
             return Ok(userList);
         }
 
