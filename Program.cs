@@ -43,6 +43,15 @@ builder.Services.AddSwaggerGen(c =>
                 });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
 builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<BookRepository>();
@@ -81,6 +90,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseCors("AllowSpecificOrigin");
 
 app.MapControllers();
 app.UseCors(option=>option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
