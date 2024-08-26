@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KpBrrW40Hq5MIvFUgMXgwRUgTIWiOsPnJXySKW51qXUY1L2r4jp2SadJo1MdjK2OXsJw+hpGqT2y0EHwm920+g==",
+  "dgSpecHash": "xb0I7b4lsdBAhiWsM08jHy2vN3pz9xayO0SFpQchrKk5X9mmPKhTozmrYWePm7Vmnl3/kZohHg6kH16NpjvuLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\meiyi\\Downloads\\crud-dotnet-api\\crud-dotnet-api.csproj",
+  "projectFilePath": "C:\\Users\\meiyi\\Documents\\documents from mac\\Angular exercises and projects\\newMemo\\crud-dotnet-api\\crud-dotnet-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meiyi\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\meiyi\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
