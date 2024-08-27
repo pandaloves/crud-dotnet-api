@@ -4,8 +4,9 @@
     "\\Controllers",
     "\\Data",
     "\\Migrations",
-    "\\Model"
+    "\\Model",
+    "\\Properties"
   ],
-  "SelectedNode": "\\crud-dotnet-api.sln",
+  "SelectedNode": "\\Properties\\launchSettings.json",
   "PreviewInSolutionExplorer": false
 }
