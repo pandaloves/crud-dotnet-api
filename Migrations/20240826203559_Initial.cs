@@ -2,10 +2,12 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace crud_dotnet_api.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -52,6 +54,30 @@ namespace crud_dotnet_api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Books",
+                columns: new[] { "Id", "Author", "PublishYear", "Title" },
+                values: new object[,]
+                {
+                    { 1, "Malcolm Gladwell", "2000", "The Tipping Point" },
+                    { 2, "Nicola Barker", "2007", "Darkmans" },
+                    { 3, "Helen Dunmore", "2001", "The Siege" },
+                    { 4, "M John Harrison", "2002", "Light" },
+                    { 5, "Jenny Erpenbeck", "2008", "Visitation" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Quotes",
+                columns: new[] { "Id", "Author", "Content" },
+                values: new object[,]
+                {
+                    { 1, "Benjamin Disraeli", "Det finns ingen bättre utbildning än motgångar." },
+                    { 2, "Gustaf Lindborg", "Sjömannen ber inte om medvind, han lär sig segla." },
+                    { 3, "Jonathan Saffran Foer", "Du kan inte skydda dig själv från sorg utan att skydda dig själv från lycka." },
+                    { 4, "Mignon McLaughlin", "Mod kan inte se runt hörn, men går runt dem ändå." },
+                    { 5, "Philip Sidney", "Antingen så hittar jag en väg, eller så skapar jag en." }
                 });
         }
 
