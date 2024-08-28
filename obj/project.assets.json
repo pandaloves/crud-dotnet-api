@@ -4443,11 +4443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meiyi\\Documents\\documents from mac\\Angular exercises and projects\\new API for lia\\crud-dotnet-api\\crud-dotnet-api.csproj",
+      "projectUniqueName": "C:\\Users\\meiyi\\Downloads\\crud-dotnet-api\\crud-dotnet-api.csproj",
       "projectName": "crud-dotnet-api",
-      "projectPath": "C:\\Users\\meiyi\\Documents\\documents from mac\\Angular exercises and projects\\new API for lia\\crud-dotnet-api\\crud-dotnet-api.csproj",
+      "projectPath": "C:\\Users\\meiyi\\Downloads\\crud-dotnet-api\\crud-dotnet-api.csproj",
       "packagesPath": "C:\\Users\\meiyi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meiyi\\Documents\\documents from mac\\Angular exercises and projects\\new API for lia\\crud-dotnet-api\\obj\\",
+      "outputPath": "C:\\Users\\meiyi\\Downloads\\crud-dotnet-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\meiyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4458,6 +4458,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4470,6 +4471,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4530,7 +4536,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -995,7 +995,6 @@ C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\staticwebassets\msbuil
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.crud-dotnet-api.props
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\scopedcss\bundle\crud-dotnet-api.styles.css
-C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.csproj.CopyComplete
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.dll
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\refint\crud-dotnet-api.dll
 C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.pdb
@@ -1293,3 +1292,4 @@ C:\Users\meiyi\Documents\documents from mac\Angular exercises and projects\new A
 C:\Users\meiyi\Documents\documents from mac\Angular exercises and projects\new API for lia\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.pdb
 C:\Users\meiyi\Documents\documents from mac\Angular exercises and projects\new API for lia\crud-dotnet-api\obj\Debug\net8.0\crud-dotnet-api.genruntimeconfig.cache
 C:\Users\meiyi\Documents\documents from mac\Angular exercises and projects\new API for lia\crud-dotnet-api\obj\Debug\net8.0\ref\crud-dotnet-api.dll
+C:\Users\meiyi\Downloads\crud-dotnet-api\obj\Debug\net8.0\crud-dot.9B522D7B.Up2Date
